@@ -6,6 +6,7 @@ public enum Gender {
 
     private String gender;
 
+    //枚举类的构造器一定是private修饰的,并且默认就是private
     Gender(String gender) {
         this.gender = gender;
         System.out.println("Gender constructor is invoked: " + gender);
