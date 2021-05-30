@@ -2,9 +2,9 @@ package chapter1;
 
 public class Demo5 {
 
-    private String a = "abc";
+    public String a = "abc";
 
-    private void print(){
+    public void print(){
         System.out.println("hello");
     }
 }
