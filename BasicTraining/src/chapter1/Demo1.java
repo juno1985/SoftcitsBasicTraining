@@ -1,11 +1,15 @@
 package chapter1;
 
 public class Demo1 {
-    public static void main(String[] args) {
-        for (int i = 0; i < 100; i++) {
-            System.out.println("fdafa");
-        }
 
-        System.out.println("fdafa");
+    final String str;
+
+    public Demo1(String str) {
+        this.str = str;
+    }
+
+    public static void main(String[] args) {
+       Demo1 demo = new Demo1("abc");
+
     }
 }
