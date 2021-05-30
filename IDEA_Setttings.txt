@@ -1,0 +1,36 @@
+File->Settings
+theme : Appearance & Behavior -> Theme
+font:   Editor->General->Change font size with Ctrl + Mouse wheel               or    Editor -> Font 
+java doc:                   -> Show quick documentation on mouse move
+auto import package: ->General(drop down list)->Auto Import 
+                                                            ->Add umambiguous imports on the fly
+                                                            ->Optimize imports on the fly(for current project)
+manual import package:  Alt + Enter
+
+File Encodings: Editor->File Encodings -> set all the places to UTF-8
+Auto Compile : Build,Execution,Deployment->Compiler->Build Project Automatically
+                                                   ->Compile independent modules in parallel
+
+show line number : Editor->General->Appearance->Show line numbers
+show method separators:                       ->Show method separators
+ingore typed case for tips: Editor->General->Code Completion->Match case(uncheck)
+
+
+hot key:
+auto main method : psvm -> enter
+auto print method:   sout->enter
+copy a line : ctrl + d
+delete a line : ctrl + y
+redo : ctrl +z/ctrl + shift + z
+move code up/down: ctrl + shift + up/down
+move left/right: shift + tab/tab
+search class: ctrl + n
+auto generate code: alt + insert(setter/getter/constructor/equals/toString)
+comment out a line: ctrl +/
+comment out multiple lines:ctrl + shift + /
+gerate variable: alt + enter
+content assist: Keymap->Main menu->Code->Completion->Basic->Ctrl+blank
+source code navigation historical route: ctrl+alt+mouse left/ctrl+alt+mouse right
+class structure: alt+7
+extends hirachy： ctrl+h
+where the method being invoked: highlight method->alt+f7(Find Usages)
