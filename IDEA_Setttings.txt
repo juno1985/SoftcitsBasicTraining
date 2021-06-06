@@ -28,7 +28,7 @@ search class: ctrl + n
 auto generate code: alt + insert(setter/getter/constructor/equals/toString)
 comment out a line: ctrl +/
 comment out multiple lines:ctrl + shift + /
-gerate variable: alt + enter
+gerate variable: crl+alt+v/alt + enter
 content assist: Keymap->Main menu->Code->Completion->Basic->Ctrl+blank
 source code navigation historical route: ctrl+alt+mouse left/ctrl+alt+mouse right
 class structure: alt+7
