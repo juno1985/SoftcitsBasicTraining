@@ -19,25 +19,13 @@ public class Demo5 {
                 result += " ";
             }
 
+            String x_str = Integer.toString(x);
+            if(x_str.length() == 1)
+                x_str = "00" + x_str;
+            else if(x_str.length() == 2)
+                x_str = "0" + x_str;
 
-            String str = "";
-            int shang;
-            int yu;
-            while((shang=x/10) != 0){
-                yu = x % 10;
-                str = yu + str;
-                x /= 10;
-            }
-            yu = x % 10;
-            str = yu + str;
-
-            if(str.length() < 2){
-                str = "00"+str;
-            }
-            else if(str.length() < 3){
-                str = "0"+str;
-            }
-            System.out.println(result + str);
+            System.out.println(result + x_str);
         }
         System.out.println("================================");
 
