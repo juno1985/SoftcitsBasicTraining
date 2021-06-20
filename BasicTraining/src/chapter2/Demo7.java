@@ -1,5 +1,7 @@
 package chapter2;
 
+import java.util.Scanner;
+
 public class Demo7 {
 
     private static final Scanner scanner = new Scanner(System.in);
