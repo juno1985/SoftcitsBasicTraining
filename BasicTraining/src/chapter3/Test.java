@@ -17,13 +17,16 @@ public class Test {
         this.pubStr = pubStr;
     }
 
-    private void print(){
+    public void print(){
         System.out.println("Private Print");
     }
     public void print(String str){
         System.out.println("Public Print: " + str);
     }
-
+    public void print(Integer in, String str) {}
+    public void trade(){
+        System.out.println("Trade is in progress....");
+    }
     public void setPriInt(int priInt) {
         this.priInt = priInt;
     }
