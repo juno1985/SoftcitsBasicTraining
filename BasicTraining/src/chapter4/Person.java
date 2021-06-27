@@ -5,7 +5,7 @@ import java.lang.reflect.Field;
 
 public class Person {
 
-    @MyAnnotation
+    @MyAnnotation(legs=4)
     private int legsNum;
 
     private String name;
