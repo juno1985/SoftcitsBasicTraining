@@ -5,6 +5,8 @@ import java.util.List;
 
 public class Demo1 {
 
+
+    @SuppressWarnings({"unused",  "unchecked"})
     public static void main(String[] args) {
         Demo1 demo1 = new Demo1();
 
@@ -13,7 +15,8 @@ public class Demo1 {
         System.out.println(listInt.getClass());
 
         List<String> listStr = new ArrayList<>();
-        List<String> listStr1 = new ArrayList<>();
+
+        List listStr1 = new ArrayList();
         System.out.println(listStr.getClass());
         System.out.println(listInt.getClass() == listStr.getClass());
 
